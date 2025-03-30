@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Password Game",
+    "slug": "password-game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "themeColor": "#ffffff",
+      "backgroundColor": "#ffffff",
+      "manifest": {
+        "short_name": "PwdGame",
+        "name": "Password Game",
+        "start_url": ".",
+        "display": "standalone",
+        "orientation": "portrait",
+        "description": "비밀번호 규칙을 풀며 진행하는 퍼즐형 게임"
+      }
+    }
+  }
+}
